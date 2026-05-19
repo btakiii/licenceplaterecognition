@@ -55,7 +55,7 @@ if uploaded_file is not None:
                 plate_text = "".join(predicted)
             else:
                 plate_text = "ISMERETLEN"
--
+
             tab1, tab2, tab3, tab4 = st.tabs(["Végeredmény", "Előfeldolgozás Lépései", "Szegmentálás", "Karakterek"])
             
             with tab1:
