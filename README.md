@@ -68,7 +68,7 @@ A rendszer:
 📄 `hog_extractor.py`  
 📄 `knn_classifier.py`
 
-> A modul neve `knn_classifier.py`, azonban valójában `SVC` modellt használ.
+> A modul neve `knn_classifier.py`, azonban valójában `SVM` modellt használ.
 
 ---
 
