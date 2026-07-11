@@ -13,7 +13,7 @@ def deskew(image: np.ndarray) -> np.ndarray:
     if lines is not None:
         angles = []
         for line in lines:
-            x1, y1, x2, y2 = line[0]
+            x1, y1, x2, y2 = line.ravel()
             angle = np.arctan2(y2 - y1, x2 - x1) * 180 / np.pi
             if -25 < angle < 25:
                 angles.append(angle)
